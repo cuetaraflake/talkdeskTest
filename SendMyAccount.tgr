@@ -1,0 +1,6 @@
+Trigger SendMyAccount on Account (after insert)
+{
+    for(Account a :Trigger.new) {
+        SendAccount.createAccount(a.name, a.Phone,'A',String.valueOf( a.Number_Of_Opps__c),Integer.valueOf( a.Number_of_Contacts__c)); 
+    } 
+}
