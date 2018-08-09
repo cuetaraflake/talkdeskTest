@@ -1,0 +1,12 @@
+Create a Lightning App on SF-B that shows the accounts in SF-A and present it as a list. 
+The list should a have multi-select behaviour and a button to perform an action to all selected elements.
+
+
+-I didn't have enough time to complete the challenge. 
+I created a App in salesforce to display only the accounts from the source org.
+I did this creating a new field so I can filter it.
+The field is populated by a trigger.
+
+Once the view is created the user can multi select the account and can also perform an action to all selected elements.
+
+The goal was to create a component and do this custom.
